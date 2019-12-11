@@ -9,7 +9,7 @@ import util.DriverManager;
 public class SuiteManager {
 
     DriverManager driverManager;
-    private static ConfigFileReader config = new ConfigFileReader();
+    public static ConfigFileReader config = new ConfigFileReader();
 
     @BeforeSuite(alwaysRun = true)
     public void startDriver() {
